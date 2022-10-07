@@ -1,0 +1,19 @@
+
+.cart{
+    display: flex;
+ width: 100%;
+justify-content: end;
+font-size: 1.5rem;
+padding: 3rem 3rem 1rem;
+
+}
+.content-total-button-cart{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 2rem;
+    justify-content: end;
+}
+.content-total-button-cart p{
+    align-self: end;
+}
