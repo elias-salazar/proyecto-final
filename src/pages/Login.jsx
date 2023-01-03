@@ -10,10 +10,7 @@ const Login = ({ isValidation }) => {
   const navigate = useNavigate();
   const submit = (data) => {
     axios
-      .post(
-        "https://ecommerce-api-react.herokuapp.com/api/v1/users/login",
-        data
-      )
+      .post("https://e-commerce-api.academlo.tech/api/v1/users/login", data)
       .then((res) => {
         localStorage.setItem("token", res.data.data.token);
         navigate("/");
